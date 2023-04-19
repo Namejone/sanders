@@ -1,0 +1,12 @@
+// accordion
+.accordion{
+    padding-bottom: .1px;
+    &-button{
+        &::after{
+            width: 24px;
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

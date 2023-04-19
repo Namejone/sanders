@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-Bold.woff2') format('woff2'),
+        url('./fonts/Figtree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Figtree-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-SemiBold.woff2') format('woff2'),
+        url('./fonts/Figtree-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-Medium.woff2') format('woff2'),
+        url('./fonts/Figtree-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-Regular.woff2') format('woff2'),
+        url('./fonts/Figtree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-Light.woff2') format('woff2'),
+        url('./fonts/Figtree-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

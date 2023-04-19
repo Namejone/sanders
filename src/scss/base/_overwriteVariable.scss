@@ -1,0 +1,100 @@
+$font-family-base: 'Figtree';
+$gray-900: #222121;
+$font-weight-medium: 500;
+$primary: #C61618;
+$green: #00AD2F;
+$headings-color: $gray-900;
+
+// custom variable color
+$black-medium: #434343;
+
+
+
+// button-overwrite variables
+$btn-padding-y: 0.625rem;
+$btn-padding-x: 1rem;
+$btn-line-height: 1.5rem;
+
+$btn-font-weight: 500;
+$btn-box-shadow: none;
+$btn-focus-width: none;
+$btn-focus-box-shadow: none;
+$btn-disabled-opacity: .65;
+$btn-active-box-shadow: none;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius: 0.125rem;
+
+// input-varibales
+$input-border-radius: 2px;
+$input-border-color: #A9A9A9;
+$input-box-shadow: none;
+$input-focus-box-shadow: none;
+$input-btn-padding-y: .550rem;
+$input-btn-padding-x: .75rem;
+$input-focus-border-color: #A9A9A9;
+
+$form-label-font-size: 14px;
+$form-label-color: #434343;
+
+// containers
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1224px
+);
+
+
+// card-variable
+$card-border-color: #D9D9D9;
+$card-border-radius: 2px;
+
+
+// box-shadow
+$box-shadow: 0px 24px 14px rgba(0, 0, 0, 0.01),
+0px 11px 11px rgba(0, 0, 0, 0.02),
+0px 3px 6px rgba(0, 0, 0, 0.03),
+0px 0px 0px rgba(0, 0, 0, 0.03);
+
+
+// breadcrumb
+$breadcrumb-font-size: 14px;
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-item-padding-x: .5rem;
+$breadcrumb-margin-bottom: 1rem;
+$breadcrumb-bg: null;
+$breadcrumb-divider: quote('-');
+$breadcrumb-divider-flipped: $breadcrumb-divider;
+$breadcrumb-border-radius: null;
+
+
+// group-list sass-variables
+$list-group-color: #222121;
+$list-group-border-color: #A9A9A9;
+$list-group-border-radius: 0px;
+
+// select input
+$form-select-focus-box-shadow: none;
+
+
+
+// accordion
+$accordion-button-active-color: #222121;
+$accordion-button-color: #222121;
+$accordion-icon-active-color: #706F6F;
+$accordion-button-active-bg: #fff;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-icon: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 9.00019L0.5 1.50019L1.55 0.450195L8 6.9002L14.45 0.450195L15.5 1.50019L8 9.00019Z" fill="#706F6F" /></svg>');
+$accordion-button-active-icon: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 9.00019L0.5 1.50019L1.55 0.450195L8 6.9002L14.45 0.450195L15.5 1.50019L8 9.00019Z" fill="#706F6F" /></svg>');
+
+
+// table-variable
+$table-th-font-weight: null;
+$table-striped-bg: #F9F9F9;
+
+
+// check-box-variables
+$form-check-input-focus-box-shadow: none;

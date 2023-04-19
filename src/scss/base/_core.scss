@@ -1,0 +1,53 @@
+$font-family-base: 'Figtree';
+
+$lead-font-size: $font-size-base * 1.125;
+$lead-font-weight: 300;
+
+$small-font-size: .875em;
+
+$sub-sup-font-size: .75em;
+
+$text-muted: $gray-600;
+
+$initialism-font-size: $small-font-size;
+
+$blockquote-margin-y: $spacer;
+$blockquote-font-size: $font-size-base * 1.25;
+$blockquote-footer-color: $gray-600;
+$blockquote-footer-font-size: $small-font-size;
+
+$hr-margin-y: $spacer;
+$hr-color: inherit;
+
+// fusv-disable
+$hr-bg-color: null; // Deprecated in v5.2.0
+$hr-height: null; // Deprecated in v5.2.0
+// fusv-enable
+
+$hr-border-color: null; // Allows for inherited colors
+$hr-border-width: $border-width;
+$hr-opacity: .25;
+
+$legend-margin-bottom: .5rem;
+$legend-font-size: 1.5rem;
+$legend-font-weight: null;
+
+$dt-font-weight: $font-weight-bold;
+
+$list-inline-padding: .5rem;
+
+$mark-padding: .1875em;
+$mark-bg: $yellow-100;
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+textarea{
+    resize: none;
+}
+
+
+

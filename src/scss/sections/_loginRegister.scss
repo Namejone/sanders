@@ -1,0 +1,22 @@
+// login-register
+
+.login{
+    &-tabs{
+        & .nav{
+            &-link{
+                border: none;
+                border-bottom: 1px solid $border-color;
+                color: #222121;
+                font-weight: 500;
+                background: transparent;
+                &:hover{
+                    background: transparent;
+                }
+                &.active{
+                    border-color: $primary;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

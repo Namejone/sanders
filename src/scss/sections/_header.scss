@@ -1,0 +1,231 @@
+// header-css-start
+
+.header{
+    background: $white;
+    z-index: 111;
+    position: relative;
+    transition: .3s;
+    top: 0px;
+    &-top{
+        &-links{
+            & a{
+                color: $white;
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                &.hidden-items{
+                    opacity: 0;
+                    visibility: hidden;
+                    display: none;
+                }
+                
+            }
+            & span{
+                flex: 0 0 auto;
+                width: 24px;
+                margin-right: 8px;
+                
+                & img{
+                    max-width: 24px;
+                    max-height: 24px;
+                }
+            }
+            & .sep-left{
+                position: relative;
+                &::after{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 1px;
+                    height: 100%;
+                    content: "";
+                    background: #fff;
+                }
+            }
+            & .search{
+                &-box{
+                    width: 400px;
+                    margin-left: 80px;
+                    position: relative;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: .3s;
+                    & input{
+                        width: 0%;
+                        height: 28px;
+                        color: #fff;
+                        font-size: 16px;
+                        border: none;
+                        border-bottom: 1px solid transparent;
+                        background-color: transparent;
+                        padding-left: 35px;
+                        transition: .3s;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    &.show{
+                        & input{
+                            width: 100%;
+                            border-bottom: 1px solid #fff;
+                        }
+                    }
+                }
+                &-btn{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    & img{
+                        max-width: 24px;
+                    }
+                }
+            }
+        }
+    }
+    &-nav{
+        & ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            & > li{
+                @include media-breakpoint-up(xxl){
+                    margin: 0px 3px;
+                }
+                &:hover{
+                    & > a{
+                        background-color: #f9f9f9;
+                    }
+                    & .megamenu {
+                        opacity: 1;
+                        top: 100%;
+                        visibility: visible;
+                    }
+                }
+                & > a{
+                    font-size: 14px;
+                    color: $gray-900;
+                    display: block;
+                    line-height: 21px;
+                    text-decoration: none;
+                    position: relative;
+                    padding: 11px 10px 11px 10px;
+                    transition: $transition-base;
+
+                    @include media-breakpoint-up(lg){
+                        font-size: 12px;
+                        padding: 10px 5px;
+                    }
+                    @include media-breakpoint-up(xl){
+                        font-size: 14px;
+                        padding: 11px 10px 11px 10px;
+                    }
+                    
+                    &.has-dropdown{
+
+                        @include media-breakpoint-up(lg){
+                            padding: 10px 5px;
+                            padding-right: 38px;
+                        }
+                        @include media-breakpoint-up(xl){
+                            padding: 11px 42px 11px 10px;
+                        }
+
+                        padding: 11px 42px 11px 10px;
+
+                        &::after{
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-repeat: no-repeat;
+                            background-position: center;
+
+                            background-image: url('./images/icons/arrow-down.svg');
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-logo{
+        & a {
+            & img{
+                max-width: 240px;
+            }
+        }
+    }
+    &-links{
+        & a{
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            color: $gray-900;
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 10px;
+            line-height: 1;
+            transition: $transition-base;
+            &:hover{
+                background: #f9f9f9;
+            }
+            & span{
+                flex: 0 0 auto;
+                width: 24px;
+                margin-right: 8px;
+                & img{
+                    max-width: 24px;
+                    max-height: 24px;
+                }
+            }
+        }
+    }
+    &-search{
+        
+        @include media-breakpoint-up(md){
+            max-width: 250px;
+        }
+        @include media-breakpoint-up(lg){
+            max-width: 370px;
+        }
+        @include media-breakpoint-up(xxl){
+            max-width: 470px ;
+        }
+    }
+
+    &.is-sticky{
+        position: sticky;
+        transition: .3s;
+        top: 0px;
+        & .header-main{
+            opacity: 0;
+            visibility: hidden;
+            display: none;
+            @media (max-width: 991px) {
+                opacity: 1;
+                visibility: visible;
+                display: block;
+            }
+        }
+        & .header-top-links a{
+            &.hidden-items{
+                opacity: 1;
+                visibility: visible;
+                display: block;        
+            }
+            & .txt{
+                display: none;
+            }
+        } 
+        & .header-top-links{
+            & .search-box{
+                opacity: 1;
+                visibility: visible;
+                transition: .3s;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+// product-css
+.product{
+    &-info{
+        
+        // tab
+        &-tab{
+            & button.nav-link{
+                &.active{
+                    border-color: #D9D9D9;
+                    background: #FBFBFB;
+                    color: #222121;
+                }
+            }
+        }
+        
+        // info-listItem
+        &-listItem{
+
+        }
+    }
+}

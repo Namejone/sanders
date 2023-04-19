@@ -1,0 +1,98 @@
+// collapse
+
+.acco-pack{
+    &-wrapper{
+        &:not(.active) .hide-text{
+            display: none;
+        }
+        &:not(.active) .edit-text{
+            display: inline-block;
+        }
+        &.active{
+            & .acco-pack-header{
+                & .count{
+                    background: $primary;
+                    color: $white;
+                    border-color: $primary;
+                }
+
+                & span.icon-12{
+                    & svg path{
+                        fill: #8D8C8C;
+                    }
+                }
+
+                & .btn-collapse{
+                    & span.icon-12{
+                        & svg{
+                            transform: rotate(0deg);
+                        }
+
+                    } 
+                }
+            }
+            
+        }
+    }
+
+    &-header{
+        cursor: pointer;
+        & .btn-collapse{
+            & span.icon-12{
+                & svg{
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        & h6{
+            color: #A9A9A9;
+            display: flex;
+            align-items: center;
+        }
+        & .count{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid $border-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 500;
+            color: #A9A9A9;
+        }
+        & .hide-text{
+            color: #A9A9A9;
+        }
+        & .edit-text{
+            display: none;
+        }
+
+        &.checked{
+            & .count{
+                background: transparent;
+                border-color: $primary;
+                color: $primary;
+            }
+            & h6{
+                color: #222121;
+            }
+            & .hide-text{
+                color: #706F6F;
+            }
+            & span.icon-12{
+                & svg path{
+                    fill: #8D8C8C;
+                }
+            }
+        }
+    }
+    
+    &-body {
+        padding-top: .1px;
+        &-inner{
+            overflow: auto;
+        }
+    }
+}

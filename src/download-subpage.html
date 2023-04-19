@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- css-file -->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="../node_modules/country-select-js/build/css/countrySelect.min.css">
+    <link rel="stylesheet" href="../node_modules/jquery-ui/dist/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- css-file-end -->
+    
+    <!-- script-file -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../node_modules/swiper/swiper-bundle.js" defer></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="../node_modules/jquery-ui/dist/jquery-ui.min.js" defer></script>
+    <script src="../node_modules/country-select-js/build/js/countrySelect.min.js" defer></script>
+    <script src="./js/config.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <!-- script-file-end -->
+
+</head>
+<body class="bg-gray-light">
+
+    <!-- offcanva-menu -->
+    <div class="offcanvas-area">
+        <div class="offcanvas-menu">
+            <!-- menu-item -->
+            <div class="offcanvas-menu-item">
+                <button type="button" class="offMenu-btn" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Beverages
+                    <img src="./images/icons/arrow-downl-light.png" alt="">
+                </button>
+                <div class="offcanvas-menu-link collapse" id="collapseExample">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Cans
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    PET
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu-item-end -->
+
+            <!-- menu-item -->
+            <div class="offcanvas-menu-item">
+                <button type="button" class="offMenu-btn" data-bs-toggle="collapse" data-bs-target="#collapseExampleTwo" aria-expanded="false" aria-controls="collapseExample">
+                    CoffeeBag
+                    <img src="./images/icons/arrow-downl-light.png" alt="">
+                </button>
+                <div class="offcanvas-menu-link collapse" id="collapseExampleTwo">
+                    <div class="accordion" id="accordionExampleTwo">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOnea">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnea" aria-expanded="true" aria-controls="collapseOnea">
+                                    Cans
+                                </button>
+                            </h2>
+                            <div id="collapseOnea" class="accordion-collapse collapse show" aria-labelledby="headingOnea" data-bs-parent="#accordionExampleTwo">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwoa">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwoa" aria-expanded="false" aria-controls="collapseTwoa">
+                                    PET
+                                </button>
+                            </h2>
+                            <div id="collapseTwoa" class="accordion-collapse collapse" aria-labelledby="headingTwoa"
+                                data-bs-parent="#accordionExampleTwo">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu-item-end -->
+
+            <!-- menu-item -->
+            <div class="offcanvas-menu-item">
+                <button type="button" class="offMenu-btn" data-bs-toggle="collapse" data-bs-target="#collapseExampleThree" aria-expanded="false" aria-controls="collapseExample">
+                    Organic Teastick
+                    <img src="./images/icons/arrow-downl-light.png" alt="">
+                </button>
+                <div class="offcanvas-menu-link collapse" id="collapseExampleThree">
+                    <div class="accordion" id="accordionExampleThree">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOneb">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneb" aria-expanded="true" aria-controls="collapseOneb">
+                                    Cans
+                                </button>
+                            </h2>
+                            <div id="collapseOneb" class="accordion-collapse collapse show" aria-labelledby="headingOneb" data-bs-parent="#accordionExampleThree">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwob">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwob" aria-expanded="false" aria-controls="collapseTwob">
+                                    PET
+                                </button>
+                            </h2>
+                            <div id="collapseTwob" class="accordion-collapse collapse" aria-labelledby="headingTwob"
+                                data-bs-parent="#accordionExampleThree">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu-item-end -->
+
+            <!-- menu-item -->
+            <div class="offcanvas-menu-item">
+                <button type="button" class="offMenu-btn" data-bs-toggle="collapse" data-bs-target="#collapseExampleFour" aria-expanded="false" aria-controls="collapseExample">
+                    Cosmetics & Care
+                    <img src="./images/icons/arrow-downl-light.png" alt="">
+                </button>
+                <div class="offcanvas-menu-link collapse" id="collapseExampleFour">
+                    <div class="accordion" id="accordionExampleFour">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOnec">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnec" aria-expanded="true" aria-controls="collapseOnec">
+                                    Cans
+                                </button>
+                            </h2>
+                            <div id="collapseOnec" class="accordion-collapse collapse show" aria-labelledby="headingOnec" data-bs-parent="#accordionExampleFour">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwoc">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwoc" aria-expanded="false" aria-controls="collapseTwoc">
+                                    PET
+                                </button>
+                            </h2>
+                            <div id="collapseTwoc" class="accordion-collapse collapse" aria-labelledby="headingTwoc"
+                                data-bs-parent="#accordionExampleFour">
+                                <div class="accordion-body p-0">
+                                    <ul class="offcanvas-nav">
+                                        <li><a href="">Energy Drink</a></li>
+                                        <li><a href="">Energy Drink sugarfree</a></li>
+                                        <li><a href="">Apple Spritzer sparkling</a></li>
+                                        <li><a href="">Iso Redberries</a></li>
+                                        <li><a href="">Latte Macchiato</a></li>
+                                        <li><a href="">Orange Juice</a></li>
+                                        <li><a href="">Secco d’Italia</a></li>
+                                        <li><a href="">Beer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu-item-end -->
+        </div>
+    </div>
+    <!-- offcanva-menu-end -->
+
+    <!-- header-area -->
+    <header class="header py-3 py-lg-0">
+        <!-- header-top -->
+        <div class="header-top bg-primary py-2 d-none d-lg-block">
+            <div class="container">
+                <div class="header-top-links d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <p class="small mb-0 text-white pe-3">Mo - Fr von 8 - 19 Uhr</p>
+                        <a href="" class="sep-left ps-3">
+                            <span><img src="./images/icons/phone-white.png" alt=""></span>
+                            Kontakt
+                        </a>
+                    </div>
+    
+                    <div class="d-flex align-items-center gap-4">
+                        <a href="">
+                            <span>
+                                <img src="./images/icons/upload-white.png" alt="">
+                            </span>
+                            Upload
+                        </a>
+                        <a href="download-subpage.html">
+                            <span>
+                                <img src="./images/icons/download-whtie.png" alt="">
+                            </span>
+                            Download
+                        </a>
+                        <a href="">
+                            <span>
+                                <img src="./images/icons/language-whtie.png" alt="">
+                            </span>
+                            DE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-top-end -->
+    
+        <!-- header-main -->
+        <div class="header-main pt-lg-4">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <!-- mobile-menu -->
+                    <div class="mobile-bar d-lg-none">
+                        <span class="bar">
+                            <img class="bar-close" src="./images/icons/close.png" alt="">
+                            <img class="bar-menu" src="./images/icons/bar.png" alt="">
+                        </span>
+                    </div>
+                    <!-- mobile-menu-end -->
+    
+                    <!-- header-logo -->
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="./images/logos/logo-main.png" alt="">
+                        </a>
+                    </div>
+                    <!-- header-logo-end -->
+    
+                    <!-- header-search -->
+                    <div class="search header-search input-group ms-4 d-none d-lg-flex">
+                        <input type="text" class="form-control">
+                        <button class="input-group-text bg-primary border-0"><img src="./images/icons/search-white.png"
+                                alt=""></button>
+                    </div>
+                    <!-- header-search-end -->
+    
+                    <!-- header-links -->
+                    <div class="d-lg-flex align-items-center header-links ms-auto gap-1 gap-xl-3 d-none">
+                        <a href="login-screen-1.html">
+                            <span><img src="./images/icons/user.png" alt=""></span>
+                            Login/Register
+                        </a>
+                        <a href="">
+                            <span><img src="./images/icons/favorite.png" alt=""></span>
+                            My Favorites
+                        </a>
+                        <a href="my-project-empty.html">
+                            <span><img src="./images/icons/document-task.png" alt=""></span>
+                            My projects
+                        </a>
+                    </div>
+                    <!-- header-links-end -->
+                </div>
+            </div>
+        </div>
+        <!-- header-main -->
+    
+        <!-- header-nav -->
+        <div class="header-nav py-3 d-none d-lg-block">
+            <div class="container d-flex align-items-center justify-content-center justify-content-xl-between">
+                <nav>
+                    <ul class="d-flex align-items-center">
+                        <li>
+                            <a class="has-dropdown" href="#">Beverages</a>
+                            <div class="megamenu pt-4 pb-7">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Packagings</h5>
+                                            </div>
+                                            <div class="row gx-2 border-end pe-6">
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/can.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Cans</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/shots.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Shots</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/pet.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">PET</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/tetra-pac.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/glass-bottles.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Glass bottles</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/fizzy.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 ps-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Fillings</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Cans</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink sugarfree</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Apple Spritzer sparkling</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Iso Redberries</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Latte Macchiato</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Orange Juice</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Beer</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Shots</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Vitamin-Shot Orange</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Vitamin-Shot OrangeGinger</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy-Shot Guarana</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Multi Vitamin</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">PET</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Glass bottles</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="has-dropdown" href="">CoffeeBag</a>
+                            <div class="megamenu pt-4 pb-7">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Packagings</h5>
+                                            </div>
+                                            <div class="row gx-2 border-end pe-6">
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/coffe.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">CoffeeBag</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/boxed.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Boxes</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/premium.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Premium
+                                                                Selection</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 ps-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Fillings</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">CoffeeBag</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Black Brick</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Bio Céo</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Copacabana</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Bio Sipisopiso</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">World Trip</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Boxes</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">CoffeeBox</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">TasteBox</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Premium Selection</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">TasteBox</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="has-dropdown" href="">Organic Teastick</a>
+                            <div class="megamenu pt-4 pb-7">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Packagings</h5>
+                                            </div>
+                                            <div class="row gx-2 border-end pe-6">
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/can.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Cans</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/shots.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Shots</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/pet.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">PET</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/tetra-pac.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/glass-bottles.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Glass bottles</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/fizzy.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 ps-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Fillings</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Cans</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink sugarfree</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Apple Spritzer sparkling</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Iso Redberries</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Latte Macchiato</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Orange Juice</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Beer</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Shots</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Vitamin-Shot Orange</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Vitamin-Shot OrangeGinger</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy-Shot Guarana</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Multi Vitamin</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">PET</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Glass bottles</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="has-dropdown" href="">Cosmetics & Care</a>
+                            <div class="megamenu pt-4 pb-7">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Packagings</h5>
+                                            </div>
+                                            <div class="row gx-2 border-end pe-6">
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/can.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Cans</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/shots.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Shots</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/pet.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">PET</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center mb-3">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/tetra-pac.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/glass-bottles.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Glass bottles</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="" class="card card-cat p-2 flex-row align-items-center">
+                                                        <div class="card-img">
+                                                            <img src="images/megamenu/fizzy.png" alt="">
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <h6 class="fw-semibold mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 ps-4">
+                                            <div class="megamenu-title mb-4">
+                                                <h5 class="fw-medium mb-0">Our Fillings</h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Cans</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink sugarfree</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Apple Spritzer sparkling</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Iso Redberries</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Latte Macchiato</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Orange Juice</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Beer</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Shots</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Vitamin-Shot Orange</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Vitamin-Shot OrangeGinger</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy-Shot Guarana</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Fizzy Tablets</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Multi Vitamin</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">Energy Drink</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">PET</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+    
+                                                        </ul>
+                                                    </div>
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Glass bottles</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Secco d’Italia</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="mengamenu-item mb-3">
+                                                        <div class="megamenu-item-title pb-2 border-bottom">
+                                                            <h6 class="fs-6 fw-medium mb-0">Tetra Pak</h6>
+                                                        </div>
+                                                        <ul class="megamenu-links">
+                                                            <li>
+                                                                <a href="">Water</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="has-dropdown" href="">Specific group</a>
+                        </li>
+                        <li>
+                            <a class="text-primary" href="">Bestsellers</a>
+                        </li>
+                        <li>
+                            <a class="text-primary" href="">Novelties</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="ms-auto d-none d-lg-block">
+                    <a href="confugurator-opened-screen-6.html#quick-config" type="button" class="btn btn-primary btn-icon">
+                        Quick configurator
+                        <span class="ms-2">
+                            <img src="./images/icons/settings.svg" alt="">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- header-nav-end -->
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main -->
+    <main>
+
+        <!-- catalog-selec-record -->
+        <div class="section pb-2 pb-md-4 pb-lg-13">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb mb-0">
+                            <ol class="breadcrumb py-3 mb-0">
+                                <li class="breadcrumb-item"><a href="#">Homepage</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Downloads</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-lg-7 col-xl-8 mx-auto">
+                        <div class="section-title text-center mb-9">
+                            <h2 class="fs-1">Downloads</h2>
+                            <p>Download online versions of our magazine or templates for a specific product</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-3 gx-md-4 align-items-stretch justify-content-center">
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card card-catalog text-center py-3">
+                            <div class="card-header pb-0 bg-white border-bottom-0">
+                                <h6 class="fs-18 fw-medium mb-3">Catalogue & Sales Records</h6>
+                            </div>
+                            <div class="card-img mb-2">
+                                <img class="img-fluid" src="./images/catalog/catalog-1.png" alt="">
+                            </div>
+                            <div class="card-content pb-2">
+                                <a href="magazine-download-screen-1.html" class="btn btn-outline-danger">
+                                    Find out more
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card card-catalog text-center py-3">
+                            <div class="card-header pb-0 bg-white border-bottom-0">
+                                <h6 class="fs-18 fw-medium mb-3">Templates & Pictures</h6>
+                            </div>
+                            <div class="card-img mb-2">
+                                <img class="img-fluid" src="./images/img/zip-img.png" alt="">
+                            </div>
+                            <div class="card-content pb-2">
+                                <a href="templates-download-screen-1.html" class="btn btn-outline-danger">
+                                    Find out more
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+        <!-- catalog-selec-record-end -->
+
+
+    </main>
+    <!-- main-end -->
+
+
+
+    <!-- footer-area-start -->
+    <footer class="footer bg-gray pt-9 pb-5 py-md-13">
+        <!-- footer-main -->
+        <div class="footer-main pb-md-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 order-1 order-md-2 order-lg-1 mb-4 mb-md-0">
+                        <div class="footer-widget mb-3 mb-lg-7">
+                            <h6>Sanders Imagetools GmbH & Co. KG</h6>
+                            <ul>
+                                <li><a href="">93073 Neutraubling</a></li>
+                                <li><a href="">Traunreuter Straße 16</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-contact">
+                            <ul>
+                                <li>
+                                    <a href="tel:+49 (0)9401 / 60798 - 0">
+                                        <span><img src="./images/icons/phone-footer.png" alt=""></span>
+                                        +49 (0)9401 / 60798 - 0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:imagetools@email.com">
+                                        <span><img src="./images/icons/email.png" alt=""></span>
+                                        imagetools@email.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 order-2 order-md-1 order-lg-2 mb-md-4 mb-lg-0">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="footer-widget mb-4 mb-md-0">
+                                    <h6>About company</h6>
+                                    <ul>
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Jobs</a></li>
+                                        <li><a href="">Events</a></li>
+                                        <li><a href="">Press</a></li>
+                                        <li><a href="">Memberships</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="footer-widget mb-4 mb-md-0">
+                                    <h6>For resellers</h6>
+                                    <ul>
+                                        <li><a href="">Upload</a></li>
+                                        <li><a href="">Downloads</a></li>
+                                        <li><a href="">Option 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="footer-widget mb-4 mb-md-0">
+                                    <h6>Products</h6>
+                                    <ul>
+                                        <li><a href="">Novelties</a></li>
+                                        <li><a href="">Bestsellers</a></li>
+                                        <li><a href="">Eco</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="footer-widget mb-4 mb-md-0">
+                                    <h6>Contact</h6>
+                                    <ul>
+                                        <li><a href="">Contact</a></li>
+                                        <li><a href="">Help</a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-main-end -->
+
+        <!-- footer-bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-info">
+                    <div class="footer-links ms-auto pb-3 mb-3">
+                        <ul class="d-flex align-items-center justify-content-end gap-md-4 flex-column flex-md-row">
+                            <li>
+                                <a href="">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Data Protection</a>
+                            </li>
+                            <li>
+                                <a href="">Imprint</a>
+                            </li>
+                            <li>
+                                <a href="">Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap flex-md-nowrap">
+                        <div class="footer-text text-center text-md-start mb-2 mb-md-0">
+                            <span>2022 Sanders Imagetools GmbH & Co. KG</span>
+                            <span>BIO Kontrollstelle DE-ÖKO-037</span>
+                        </div>
+                        <div class="footer-social">
+                            <ul class="d-flex align-items-center">
+                                <li><a href=""><img src="./images/icons/facebook.png" alt=""></a></li>
+                                <li><a href=""><img src="./images/icons/instagram.png" alt=""></a></li>
+                                <li><a href=""><img src="./images/icons/twitter.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom-end -->
+    </footer>
+    <!-- footer-area-start-end -->
+
+</body>
+</html>

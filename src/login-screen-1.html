@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css-file -->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="../node_modules/country-select-js/build/css/countrySelect.min.css">
+    <link rel="stylesheet" href="../node_modules/jquery-ui/dist/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- css-file-end -->
+    
+    <!-- script-file -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../node_modules/swiper/swiper-bundle.js" defer></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="../node_modules/jquery-ui/dist/jquery-ui.min.js" defer></script>
+    <script src="../node_modules/country-select-js/build/js/countrySelect.min.js" defer></script>
+    <script src="./js/config.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <!-- script-file-end -->
+
+</head>
+<body class="bg-gray-light">
+
+    <div class="form-page pt-11 pb-14">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="mb-11">
+                        <a href="index.html" class="d-block text-center">
+                            <img src="./images/logos/logo-large.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card p-3 p-md-4">
+                        <div class="login-tabs">
+                            <nav>
+                                <div class="nav mb-4 mb-md-8" id="nav-tab" role="tablist">
+                                    <button class="nav-link active w-50 px-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Login as Retailer</button>
+                                    <button class="nav-link w-50 px-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Register now</button>
+                                </div>
+                            </nav>
+
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                    <form action="">
+                                        <div class="mb-3">
+                                            <label for="" class="form-label">E-mail adress: <sup class="text-primary">*</sup></label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-3 mb-lg-4">
+                                            <label for="" class="form-label">Password:<sup class="text-primary">*</sup></label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control border-end-0">
+                                                <button type="button" class="input-group-text bg-transparent border-start-0"><img src="./images/icons/view.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between mb-4">
+                                            <!-- checked-item -->
+                                            <div class="mb-0">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Keep me logged in
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- checked-item-end -->
+                                            <a href="password-reset-screen-1.html" class="d-inline-block link small text-decoration-none fw-medium">Forgot password?</a>
+                                        </div>
+                                        <button type="submit" class="w-100 btn btn-primary mb-2">Login now</button>
+                                        <a href="index.html" class="fw-medium small text-dark text-decoration-none">Back to imagetools.com</a>
+
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                                    <form action="" class="mb-5">
+                                        <p class="fs-18"><span class="text-gray">Step 1/2</span> - Company details</p>
+
+                                        <div class="row mb-4">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Company:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Street:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Postal code:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">City:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Country:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Website:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">E-mail adress:<sup class="text-primary">*</sup></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label mb-1">Phone: <span class="text-gray">(optional)</span></label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="register-screen-2.html" class="btn btn-primary w-100">To next step</a>
+
+                                    </form>
+                                    
+                                    <div class="text-blk">
+                                        <h6 class="fw-medium">As a promotional items specialist you can use our website entirely:</h6>
+                                        <ul class="list">
+                                            <li class="small">
+                                                <span><img src="./images/icons/check-red.png" alt=""></span>
+                                                Prepare an online offer considering your individual conditions
+                                            </li>
+                                            <li class="small">
+                                                <span><img src="./images/icons/check-red.png" alt=""></span>
+                                                Creatie an online presentation for your customers
+                                            </li>
+                                            <li class="small">
+                                                <span><img src="./images/icons/check-red.png" alt=""></span>
+                                                Order samples
+                                            </li>
+                                            <li class="small">
+                                                <span><img src="./images/icons/check-red.png" alt=""></span>
+                                                Calculate freight costs
+                                            </li>
+                                            <li class="small">
+                                                <span><img src="./images/icons/check-red.png" alt=""></span>
+                                                Chat online with our team for quick support
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

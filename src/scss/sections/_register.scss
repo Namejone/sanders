@@ -1,0 +1,35 @@
+// register-css
+.register{
+    &-bg{
+        background: #F1F1F1;
+    }
+    &-content{
+        max-width: 443px;
+        & ul {
+                margin: 0;
+                padding: 0px;
+        
+                & li {
+                    padding: 4px 0px;
+                    display: flex;
+                    align-items: baseline;
+        
+                    & span {
+                        flex: 0 0 auto;
+                        margin-right: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 24px;
+                        width: 24px;
+        
+                        & img {
+                            max-width: 18px;
+                            position: relative;
+                            top: 2px;
+                        }
+                    }
+                }
+        }
+    }
+}

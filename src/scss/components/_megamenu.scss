@@ -1,0 +1,26 @@
+// megamenu-css start
+
+.megamenu{
+    position: absolute;
+    left: 0px;
+    top: 110%;
+    background-color: $white;
+    z-index: 11111;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: $transition-base;
+    &-links{
+        & li{
+            margin: 0px !important;
+            & a{
+                padding: 5px 0px !important;
+                &:hover{
+                    color: $primary;
+                    background: transparent !important;
+                }
+            }
+        }
+    }
+}

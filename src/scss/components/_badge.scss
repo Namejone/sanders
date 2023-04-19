@@ -1,0 +1,45 @@
+// badge-css-start
+
+.badge{
+    font-size: 12px;
+    font-weight: 600;
+    color:$white;
+    padding: 4px 4px;
+    line-height: 1.4;
+    border-radius: 0px;
+    // topseller
+    &-topseller{
+        background-color: #228DCA;
+    }
+
+    // repeat
+    &-repet{
+        background: #5BBA4A;
+    }
+    &-rounded{
+        border-radius: 2px;
+    }
+    // purple
+    &-purple{
+        background: #E8E2F7;
+        color: #712AC5;
+    }
+    // green
+    &-green{
+        background: #C6F5EB;
+        color: #0D8161;
+    }
+    // dark-yello
+    &-dark-yellow{
+        background: #FFF1E7;
+        color: #CC650C;
+    }
+
+    // green-dark
+    &-green-dark{
+        background: #339E0B;
+        color: #fff;
+    }
+
+
+}

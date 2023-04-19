@@ -1,0 +1,61 @@
+// input-css
+.input{
+    // upload
+    &-upload{
+        & input{
+            display: none;
+        }
+        & label{
+            padding: 25px 10px 21px;
+            border: 1px dashed #D4D4D4;
+            border-radius: 2px;
+            width: 100%;
+        }
+        &-img{
+            max-width: 55px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            & img{
+                max-width: 100%;
+            }
+        }
+
+    }
+
+    // uploaded
+    &-uploaded{
+        padding: 20px 15px 20px;
+        border: 1px dashed #D4D4D4;
+        border-radius: 2px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+       &-icon{
+        flex: 0 0 auto;
+        width: 40px;
+        height: auto;
+        margin-right: 20px;
+        & img{
+            max-width: 100%;
+            max-height: auto;
+        }
+       }
+       &-content{
+        flex-grow: 1;
+       }
+        & .delete{
+            border: none;
+            background: transparent;
+            padding: 0px;
+            position: absolute;
+            right: -8px;
+            top: -10px;
+            & img{
+                max-width: 21px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+
+}

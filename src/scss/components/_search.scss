@@ -1,0 +1,10 @@
+// search box components
+.search{
+    max-width: 470px;
+    & button{
+        & img{
+            max-width: 24px;
+            max-height: 24px;
+        }
+    }
+}

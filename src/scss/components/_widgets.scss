@@ -1,0 +1,111 @@
+// widgets css
+.widget{
+    background: $white;
+    &-input{
+        & input{
+            font-size: 12px;
+            &::placeholder{
+                font-size: 12px;
+            }
+        }
+    }
+    &-qty{
+        & ul{
+            & li{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: 500;
+                padding: 4px 0px;
+            }
+        }
+    }
+    &-chooseQuality{
+        & p{
+            font-weight: 500;
+            & span.ind{
+                height: 8px;
+                width: 8px;
+                border-radius: 50%;
+                background: $success;
+                margin-right: 5px;
+                display: inline-block;
+            }
+        }
+    }
+    &-check{
+        & input{
+            display: none;
+            &:checked ~ label{
+                & img{
+                    filter: grayscale(0);
+                }
+               & span.ind{
+                   background: rgba(254, 79, 80, 0.8);
+                &::after{
+                    left: auto;
+                    right: 0px;
+                    background: $primary;
+                }
+               }
+               & span{
+                    &.unchecked-text{
+                        display: none;
+                        opacity: 0;
+                        visibility: visible;
+                    }
+                    &.checked-text{
+                        display: block;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+               } 
+
+            }
+        }
+        & label{
+            width: 100%;
+            & img{
+                filter: grayscale(1);
+            }
+            & span.ind{
+                width: 36px;
+                height: 14px;
+                position: relative;
+                display: inline-block;
+                border-radius: 50px;
+                background: #9B9B9B;
+                &::after{
+                    height: 20px;
+                    width: 20px;
+                    content: "";
+                    background: $white;
+                    left: 0px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    border-radius: 50%;
+                    position: absolute;
+                    box-shadow: 1px 1px 1px rgba(51, 51, 51, 0.25);
+                }
+            }
+            & span{
+                &.checked-text{
+                    display: none;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &.unchecked-text{
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                    & br{
+                        @include media-breakpoint-down(md){
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

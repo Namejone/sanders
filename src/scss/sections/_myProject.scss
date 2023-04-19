@@ -1,0 +1,51 @@
+// my-project
+.myProject{
+    &-bar{
+        min-height: 548px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    &-menu{
+        & ul{
+            & li{
+                & a{
+                    display: flex;
+                    align-items: center;
+                    color: #222121;
+                    text-decoration: none;
+                    padding: 9px 0px;
+                    &[aria-expanded="true"]{
+                        & span.icon svg{
+                            transform: rotate(90deg);
+                        }
+                    }
+                    & span{
+                        &.icon{
+                            height: 21px;
+                            width: 21px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 16px;
+                            transition: .3s;
+                        }
+                        &.text{
+                            font-weight: 700;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    &-content{
+        min-height: 100%;
+        &-status{
+            min-height: 548px;
+        }
+    }
+}

@@ -1,0 +1,167 @@
+:root{
+    scroll-behavior: auto;
+}
+
+.acco{
+    &-choose-variant{
+        display: none !important;
+        animation: fadeEffect .5s ease;
+    }
+    &-pack-body{
+        & .acco-choose-card-wrap{
+            animation: fadeEffect .5s ease;
+            &.hidden{
+                display: none !important;
+            }
+            &.active{
+                & .acco-choose-variant{
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
+.pack-calc-btn,
+.spec-print-select,
+.colorFill-change-tab,
+.pack-expand-tab,
+.pack-expand,
+.qck-config-detail-wrap,
+.acco-variant-preview-item,
+.acco-variant-preview,
+.packageInfo-container-tab,
+.packageInfo-wrap-tab,
+.spec-items-tab,
+.choose-tab,
+.Pack-gel-btns,
+.pack-content-tab,
+.colorFill-change img,
+.colorInd-item,
+.colorFill-change-2{
+	display: none !important;
+	animation: fadeEffect .5s ease;
+    &.active{
+        display: block !important;
+    }
+}
+.packageInfo-container-tab,
+.packageInfo-wrap-tab,
+.spec-items-tab,
+.choose-tab,
+.pack-expand-tab,
+.pack-expand,
+.Pack-gel-btns,
+.pack-content-tab,
+.colorFill-change img,
+.colorInd-item,
+.colorFill-change-2{
+	animation: fadeEffect 1.5s ease;
+}
+.spec-print-select,
+.colorInd-item,
+.spec-fill{
+	display: none !important;
+	animation: fadeEffect 1.5s ease;
+    &.active{
+        display: flex !important;
+    }
+}
+@keyframes fadeEffect{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.pulse {
+    transition: background-color 0.3s, color 0.3s;
+	position: relative;
+	z-index: 1;
+    transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
+    animation: anim-moema-1 0.4s forwards;
+    border-color: $primary !important;
+    color: $primary !important;
+    transition: none;
+    & .card-packing{
+        border-color: $primary !important;
+        & .card-content{
+            & h6{
+                color: $primary !important;
+            }
+        }
+    }
+}
+@keyframes anim-moema-1 {
+    60% {
+        transform: scale3d(0.9, 0.9, 1);
+    }
+    85% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+
+
+
+
+.acco-choose-card{
+    cursor: pointer;
+    &-only{
+        cursor: pointer;
+    }
+}
+
+.add-wishlist{
+	&.active{
+        border-color: transparent;
+	    color: inherit;
+        & img{
+            &:first-child{
+                display: none !important;
+            }
+            &:last-child{
+                display: block !important;
+            }
+        }
+    }
+}
+
+.card{
+    &-header{
+        &.fixed{
+            position: fixed;
+            bottom: 0;
+            z-index: 2;
+        }
+        &.absolute{
+            position: absolute;
+            z-index: 2;
+            top: 0;
+        }
+    }
+}
+
+.btn-hover-red{
+    &:hover{
+        border-color: $primary;
+        color: $primary;
+    }
+}
+
+.colorFill-change img{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.colorInd-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.packing-item {
+	display: block;
+}

@@ -1,0 +1,47 @@
+// support-section css
+.support{
+    &-content{
+        
+        & ul{
+            margin: 0;
+            padding: 0px;
+            & li{
+                padding: 4px 0px;
+                display: flex;
+                align-items: baseline;
+
+                & span{
+                    flex: 0 0 auto;
+                    margin-right: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 24px;
+                    width: 24px;
+                    & img{
+                        max-width: 18px;
+                        position: relative;
+                        top: 2px;
+                    }
+                }
+            }
+        }
+    }
+    &-img{
+        position: relative;
+        bottom: -3px;
+        &-caption{
+            position: absolute;
+            left: 90%;
+            bottom: 29px;
+            width: max-content;
+            @include media-breakpoint-down(md){
+                left: 0px;
+            }
+            & span.ex-small{
+                font-size: 12px;
+            }
+        }
+
+    }
+}
